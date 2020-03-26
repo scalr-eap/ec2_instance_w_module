@@ -15,12 +15,12 @@ variable "subnet" {
 description = "Subnet ID"
 }
 
-variable "sg" {
+variable "security_group" {
   description = "AWS Secruity Group"
   type        = list(string)
 }
 
-variable "key" {
+variable "ssh_key" {
   description = "AWS Key"
 }
 
